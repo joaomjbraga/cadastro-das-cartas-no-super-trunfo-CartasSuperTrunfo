@@ -1,4 +1,4 @@
-# 🃏 Super Trunfo - Países (Atividade Universitária)
+# 🃏 Super Trunfo - Países
 
 Este projeto é uma atividade acadêmica do curso de Análise e Desenvolvimento de Sistemas da Universidade Estácio de Sá. Ele simula parte do jogo **Super Trunfo**, com foco no cadastro e comparação de cartas representando **cidades de diferentes estados** fictícios de um país.
 
