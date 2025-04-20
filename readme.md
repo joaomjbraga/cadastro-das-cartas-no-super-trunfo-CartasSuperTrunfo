@@ -60,7 +60,7 @@ Desenvolver, em linguagem C, o sistema de cadastro e comparação de cartas com 
 ## 👨‍🎓 Autor
 
 João M J Braga  
-Estudante de Análise e Desenvolvimento de Sistemas – UNESA  
+Estudante de Análise e Desenvolvimento de Sistemas
 [LinkedIn](https://www.linkedin.com/in/joaomjbraga) | [GitHub](https://github.com/joaomjbraga)
 
 ---
