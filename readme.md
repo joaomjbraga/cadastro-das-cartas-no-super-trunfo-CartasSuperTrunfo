@@ -54,9 +54,3 @@ Estudante de Análise e Desenvolvimento de Sistemas
 ## 📅 Última atualização
 
 Abril de 2025
-
----
-
-## 🙌 Créditos Finais
-
-Agradecimentos ao professor orientador e aos colegas que contribuíram com sugestões e testes. Este projeto consolidou conhecimentos importantes de programação em C e lógica condicional aplicadas de forma prática.
