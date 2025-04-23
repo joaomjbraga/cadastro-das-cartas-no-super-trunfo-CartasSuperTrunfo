@@ -1,43 +1,29 @@
-# 🃏 Super Trunfo - Países
+# 🃏 Super Trunfo - Países (Comparação Avançada)
 
-Este projeto é uma atividade acadêmica do curso de Análise e Desenvolvimento de Sistemas da Universidade Estácio de Sá. Ele simula parte do jogo **Super Trunfo**, com foco no cadastro e comparação de cartas representando **cidades de diferentes estados** fictícios de um país.
+Este projeto é uma atividade acadêmica do curso de Análise e Desenvolvimento de Sistemas. Ele simula parte do jogo **Super Trunfo**, com foco na **comparação de cartas representando países**, usando múltiplos atributos e lógica condicional em linguagem C.
 
 ## 📌 Objetivo
 
-Desenvolver, em linguagem C, o sistema de cadastro e comparação de cartas com base em atributos das cidades. O projeto está dividido em três níveis de dificuldade: **Novato**, **Aventureiro** e **Mestre**.
+Desenvolver um sistema interativo em C para comparar cartas de países com base em **dois atributos numéricos distintos**, aplicando **regras específicas** para cada tipo de dado e utilizando estruturas como `switch`, `if-else`, e operador ternário.
 
 ---
 
 ## 🧩 Níveis do Projeto
 
-### 🎮 Nível Novato: Cadastro Básico
+### 🧭 Nível Mestre: Comparação Avançada
 
-- Cadastra **duas cartas** manualmente via terminal.
-- Cada carta representa uma cidade e possui os atributos:
+- Permite ao jogador escolher **dois atributos diferentes** para comparar.
+- Os atributos disponíveis incluem:
   - População (`int`)
   - Área (`float`)
   - PIB (`float`)
   - Número de pontos turísticos (`int`)
-- A entrada é feita com `scanf` e a saída com `printf`.
-- **Sem uso de laços ou condicionais.**
-
-### ⚔️ Nível Aventureiro: Cálculo de Atributos
-
-- Expande o nível Novato com o cálculo automático de:
-  - **Densidade Populacional**: População / Área
-  - **PIB per Capita**: PIB / População
-- Os novos atributos são exibidos junto aos demais.
-- **Continua sem laços ou condicionais.**
-
-### 🏆 Nível Mestre: Comparação e Super Poder
-
-- Implementa a comparação entre as duas cartas.
-- Calcula o **Super Poder**:
-  - Soma de todos os atributos, com a densidade populacional **invertida** (`1/densidade`).
-- Comparações:
-  - **Maior valor vence**, exceto para Densidade Populacional (**menor valor vence**).
-- Saída mostra qual carta venceu em cada atributo.
-- A População agora é do tipo `unsigned long int`.
+  - Densidade demográfica (`float`, calculada automaticamente)
+- Implementa lógica de comparação:
+  - **Maior valor vence**, exceto para Densidade Demográfica (**menor valor vence**)
+- Calcula a **soma dos atributos** para definir a carta vencedora.
+- Exibe o resultado com clareza, incluindo empates.
+- Garante que o mesmo atributo não possa ser escolhido duas vezes (menus dinâmicos com `switch`).
 
 ---
 
@@ -45,22 +31,22 @@ Desenvolver, em linguagem C, o sistema de cadastro e comparação de cartas com 
 
 - Linguagem C
 - Terminal (CLI)
-- `scanf` / `printf` para entrada e saída
+- `scanf`, `printf`, `switch`, `if-else`, operador ternário
 
 ---
 
 ## 📚 Estrutura do Código
 
-- `main.c`: Arquivo principal contendo a lógica de cadastro, cálculo e comparação.
-- Separação por funções conforme o nível implementado (ex: cálculo de densidade, super poder etc.).
-- Comentários explicativos para facilitar entendimento e manutenção.
+- `main.c`: Contém toda a lógica de cadastro das cartas, escolha de atributos, comparação e exibição de resultados.
+- Utiliza funções auxiliares para cálculos e validações.
+- Comentários explicativos facilitam o entendimento do fluxo.
 
 ---
 
 ## 👨‍🎓 Autor
 
 João M J Braga  
-Estudante de Análise e Desenvolvimento de Sistemas
+Estudante de Análise e Desenvolvimento de Sistemas  
 [LinkedIn](https://www.linkedin.com/in/joaomjbraga) | [GitHub](https://github.com/joaomjbraga)
 
 ---
@@ -68,3 +54,9 @@ Estudante de Análise e Desenvolvimento de Sistemas
 ## 📅 Última atualização
 
 Abril de 2025
+
+---
+
+## 🙌 Créditos Finais
+
+Agradecimentos ao professor orientador e aos colegas que contribuíram com sugestões e testes. Este projeto consolidou conhecimentos importantes de programação em C e lógica condicional aplicadas de forma prática.
